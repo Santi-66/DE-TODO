@@ -1,0 +1,161 @@
+.body{
+    background-color: rgb(179, 179, 179);
+}
+.cabecera{
+    width: 100%;
+    height: 100px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right:15px ;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url(imagenes/after_sales_banner.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner div{
+    width: 500px;
+    height: 200px;
+    margin-left: 40px;
+    text-align: center;
+}
+.banner div h1{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    color: silver;
+}
+.banner div p,
+.banner div a
+{
+    font-size: 20px;
+    text-align: center;
+}
+.banner div a{
+    text-decoration: none;
+    color: black;
+    background-color: silver;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.banner div p{
+    color: silver;
+}
+.flotar{
+    display: flex;
+    justify-content: center;
+}
+.flotar div,
+.slider div
+{
+    display: flex;
+    justify-content:space-evenly;
+    width: 70%;
+    position: absolute;
+    margin-top: -80px;
+}
+.flotar  div img,
+.slider div img
+{
+    width: 250px;
+}
+.galeria h2,
+.blog >h2,
+.slider h2
+{
+    font-size: 50px;
+    margin-top: 140px;
+    text-align: center;
+}
+.galeria,
+.blog
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.galeria div,
+.blog div,
+.test article
+{
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+}
+.galeria div figure{
+    margin:8px;
+}
+.galeria div figure figcaption{
+    text-align: center;
+}
+.galeria div figure img{
+    width: 200px;
+}
+.blog div{
+    justify-content: space-between;
+}
+.blog div article{
+    width:45%;
+}
+.blog div article img{
+    width: 100%;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider div {
+    position: relative;
+    margin-top: 20px;
+}
+.test{
+    display: flex;
+    align-items: center;
+}
+.test article{
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+.test article figure img{
+    width: 200px;
+    height: 150px;
+
+}
+.pie {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+}
+.pie div img{
+    width: 50px;
+}
+
+
